@@ -25,7 +25,7 @@ button.addEventListener("click", function() {
 });
 
 var setTopLocation = function() {
-  randomNumber = Math.floor(Math.random()*600);
+  randomNumber = Math.floor(Math.random()*400);
   return randomNumber
 };
 
