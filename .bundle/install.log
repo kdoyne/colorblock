@@ -3,3 +3,12 @@ I, [2014-03-09T18:10:01.051554 #19708]  INFO -- : 0:  rack (1.5.2) from /Users/k
 I, [2014-03-09T18:10:01.051886 #19708]  INFO -- : 0:  tilt (1.4.1) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/tilt-1.4.1.gemspec
 I, [2014-03-09T18:10:02.519109 #19708]  INFO -- : 0:  sinatra (1.1.0) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/sinatra-1.1.0.gemspec
 I, [2014-03-09T18:10:02.519388 #19708]  INFO -- : 0:  bundler (1.5.1) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/bundler-1.5.1.gemspec
+I, [2014-03-09T18:28:09.678908 #20845]  INFO -- : 0:  rack (1.5.2) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-03-09T18:28:09.681680 #20845]  INFO -- : 0:  tilt (1.4.1) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-03-09T18:28:09.681939 #20845]  INFO -- : 0:  sinatra (1.1.0) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/sinatra-1.1.0.gemspec
+I, [2014-03-09T18:28:09.682159 #20845]  INFO -- : 0:  bundler (1.5.1) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/bundler-1.5.1.gemspec
+I, [2014-03-09T18:31:27.572405 #21100]  INFO -- : 0:  rack (1.5.2) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-03-09T18:31:27.572740 #21100]  INFO -- : 0:  rack-protection (1.5.2) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rack-protection-1.5.2.gemspec
+I, [2014-03-09T18:31:27.572986 #21100]  INFO -- : 0:  tilt (1.4.1) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-03-09T18:31:27.573235 #21100]  INFO -- : 0:  sinatra (1.4.4) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-03-09T18:31:27.573453 #21100]  INFO -- : 0:  bundler (1.5.1) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/bundler-1.5.1.gemspec
