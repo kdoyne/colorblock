@@ -1,0 +1,5 @@
+# Logfile created on 2014-03-09 18:10:01 -0400 by logger.rb/44203
+I, [2014-03-09T18:10:01.051554 #19708]  INFO -- : 0:  rack (1.5.2) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-03-09T18:10:01.051886 #19708]  INFO -- : 0:  tilt (1.4.1) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-03-09T18:10:02.519109 #19708]  INFO -- : 0:  sinatra (1.1.0) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/sinatra-1.1.0.gemspec
+I, [2014-03-09T18:10:02.519388 #19708]  INFO -- : 0:  bundler (1.5.1) from /Users/kirsten/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/bundler-1.5.1.gemspec

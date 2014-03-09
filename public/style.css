@@ -1,0 +1,15 @@
+p {
+  font-size: .5em;
+  font-family: sans-serif;
+}
+a {
+  color: black;
+}
+button {
+  background: white;
+  padding: 5px;
+  border-radius: 6px;
+  border: none;
+  position: relative;
+  z-index: 1;
+}
