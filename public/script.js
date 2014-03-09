@@ -25,12 +25,12 @@ button.addEventListener("click", function() {
 });
 
 var setTopLocation = function() {
-  randomNumber = Math.floor(Math.random()*800);
+  randomNumber = Math.floor(Math.random()*600);
   return randomNumber
 };
 
 var setLeftLocation = function() {
-  randomNumber = Math.floor(Math.random()*800);
+  randomNumber = Math.floor(Math.random()*600);
   return randomNumber
 };
 
