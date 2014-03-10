@@ -5,11 +5,15 @@ var circle = document.querySelector("button#circle");
 
 var count = 0;
 
+var random = function(number){
+  return Math.floor(Math.random()*number);
+};
+
 var setColor = function() {
-  randomNumber1 = Math.floor(Math.random()*225);
-  randomNumber2 = Math.floor(Math.random()*225);
-  randomNumber3 = Math.floor(Math.random()*225);
-  return "rgba("+randomNumber1+","+randomNumber2+","+randomNumber3+",.5)"
+  rand1 = random(255);
+  rand2 = random(255);
+  rand3 = random(255);
+  return "rgba("+rand1+","+rand2+","+rand3+",.5)"
 };
 
 var setBackground = function() {
@@ -37,16 +41,16 @@ circle.addEventListener("click", function(){
 
 
 var setTopLocation = function() {
-  randomNumber = Math.floor(Math.random()*400);
-  return randomNumber
+  var rand = random(400);
+  return rand
 };
 
 var setLeftLocation = function() {
-  randomNumber = Math.floor(Math.random()*600);
-  return randomNumber
+  var rand = random(600);
+  return rand
 };
 
 var setSize = function() {
-  randomNumber = Math.floor(Math.random()*800);
-  return randomNumber
+  rand = random(800);
+  return rand
 };
