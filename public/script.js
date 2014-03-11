@@ -1,7 +1,6 @@
 var body = document.querySelector("body");
 var rectangle = document.querySelector("button#rectangle");
 var circle = document.querySelector("button#circle");
-var move = document.querySelector("button#move");
 
 var count = 0;
 
@@ -27,8 +26,8 @@ rectangle.addEventListener("click", function() {
   var colorBlock = document.createElement("div");
   colorBlock.addEventListener("mouseover", function(){
     this.style.background = setColor();
-    this.style.top = setTopLocation();
-    this.style.left = setLeftLocation() });
+    this.style.top = setTopLocation()+"px";
+    this.style.left = setLeftLocation()+"px" });
   body.appendChild(colorBlock);
   colorBlock.id = count;
   colorBlock.setAttribute("style","width:"+setSize()+"px; height:"+setSize()+"px; background-color: "+setColor()+"; position: absolute; top: "+setTopLocation()+"px; left: "+setLeftLocation()+"px;" );
@@ -40,8 +39,8 @@ circle.addEventListener("click", function(){
   var colorBlock = document.createElement("div");
   colorBlock.addEventListener("mouseover", function(){
     this.style.background = setColor();
-    this.style.top = setTopLocation();
-    this.style.left = setLeftLocation()});
+    this.style.top = setTopLocation()+"px";
+    this.style.left = setLeftLocation()+"px"});
   body.appendChild(colorBlock);
   colorBlock.id = count;
   var dimension = setSize()
