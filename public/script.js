@@ -1,7 +1,7 @@
 var body = document.querySelector("body");
 var rectangle = document.querySelector("button#rectangle");
 var circle = document.querySelector("button#circle");
-
+var move = document.querySelector("button#move");
 
 var count = 0;
 
@@ -21,23 +21,40 @@ var setBackground = function() {
 };
 
 setBackground();
+shapes = [];
 
 rectangle.addEventListener("click", function() {
   var colorBlock = document.createElement("div");
+  colorBlock.addEventListener("mouseover", function(){
+    this.style.background = setColor()});
   body.appendChild(colorBlock);
   colorBlock.id = count;
   colorBlock.setAttribute("style","width:"+setSize()+"px; height:"+setSize()+"px; background-color: "+setColor()+"; position: absolute; top: "+setTopLocation()+"px; left: "+setLeftLocation()+"px;" );
   count++;
+  shapes.push(colorBlock);
 });
 
 circle.addEventListener("click", function(){
   var colorBlock = document.createElement("div");
+  colorBlock.addEventListener("mouseover", function(){
+    this.style.background = setColor()});
   body.appendChild(colorBlock);
   colorBlock.id = count;
   var dimension = setSize()
   colorBlock.setAttribute("style","width:"+dimension+"px; height:"+dimension+"px; background-color: "+setColor()+"; position: absolute; top: "+setTopLocation()+"px; left: "+setLeftLocation()+"px; border-radius: 50%" );
   count++;
+  shapes.push(colorBlock);
 });
+
+move.addEventListener("click", function () {
+  var shapes = document.querySelectorAll("div");
+  for (var i = 0; i < shapes.length; ++i) {
+    setInterval(back(shapes[i]), 100)
+  };
+});
+
+function back(progress) {
+  return Math.pow(progress, 2) * ((1.5 + 1) * progress - 1.5)};
 
 
 var setTopLocation = function() {
