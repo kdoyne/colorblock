@@ -49,13 +49,6 @@ circle.addEventListener("click", function(){
   shapes.push(colorBlock);
 });
 
-move.addEventListener("click", function () {
-  var shapes = document.querySelectorAll("div");
-  for (var i = 0; i < shapes.length; ++i) {
-    setInterval(back(shapes[i]), 100)
-  };
-});
-
 function back(progress) {
   return Math.pow(progress, 2) * ((1.5 + 1) * progress - 1.5)};
 
