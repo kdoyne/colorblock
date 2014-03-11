@@ -26,7 +26,9 @@ shapes = [];
 rectangle.addEventListener("click", function() {
   var colorBlock = document.createElement("div");
   colorBlock.addEventListener("mouseover", function(){
-    this.style.background = setColor()});
+    this.style.background = setColor();
+    this.style.top = setTopLocation();
+    this.style.left = setLeftLocation() });
   body.appendChild(colorBlock);
   colorBlock.id = count;
   colorBlock.setAttribute("style","width:"+setSize()+"px; height:"+setSize()+"px; background-color: "+setColor()+"; position: absolute; top: "+setTopLocation()+"px; left: "+setLeftLocation()+"px;" );
@@ -37,7 +39,9 @@ rectangle.addEventListener("click", function() {
 circle.addEventListener("click", function(){
   var colorBlock = document.createElement("div");
   colorBlock.addEventListener("mouseover", function(){
-    this.style.background = setColor()});
+    this.style.background = setColor();
+    this.style.top = setTopLocation();
+    this.style.left = setLeftLocation()});
   body.appendChild(colorBlock);
   colorBlock.id = count;
   var dimension = setSize()
